@@ -29,7 +29,7 @@
 <body>
     <header>
         <!-- Navbar section -->
-        <nav class="lg:max-w-screen-xl mx-auto my-12">
+        <nav class="lg:max-w-screen-xl mx-auto my-12 font-poppins text-[#707070]">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div>
@@ -38,10 +38,10 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
+                        <li><a class="text-base font-normal">Home</a></li>
                         <li tabindex="0">
                             <details>
-                                <summary>Services</summary>
+                                <summary class="text-base font-normal">Services</summary>
                                 <ul class="p-2">
                                     <li><a>Submenu</a></li>
                                     <li><a>Submenu</a></li>
@@ -50,7 +50,7 @@
                         </li>
                         <li tabindex="0">
                             <details>
-                                <summary>Cases</summary>
+                                <summary class="text-base font-normal">Cases</summary>
                                 <ul class="p-2">
                                     <li><a>Submenu</a></li>
                                     <li><a>Submenu</a></li>
@@ -59,7 +59,7 @@
                         </li>
                         <li tabindex="0">
                             <details>
-                                <summary>Blogs</summary>
+                                <summary class="text-base font-normal">Blogs</summary>
                                 <ul class="p-2">
                                     <li><a>Submenu</a></li>
                                     <li><a>Submenu</a></li>
@@ -68,7 +68,7 @@
                         </li>
                         <li tabindex="0">
                             <details>
-                                <summary>Contract Us</summary>
+                                <summary class="text-base font-normal">Contract Us</summary>
                                 <ul class="p-2">
                                     <li><a>Submenu</a></li>
                                     <li><a>Submenu</a></li>
@@ -84,9 +84,32 @@
         </nav>
         <!-- Banner section -->
         <section>
-
+            <div class="hero min-h-[calc(100vh-164px)] lg:max-w-screen-xl mx-auto"
+                style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="py-24">
+                        <h1 class="mb-6 text-7xl font-extrabold font-eb text-white">
+                            We Provide Effective <br>
+                            Legal Solutions</h1>
+                        <p class="mb-8 text-base font-normal text-[#E7E7E7]">
+                            There are many variations of passages of
+                            Lorem Ipsum available, but the majority <br>
+                            have suffered alteration in some form, by injected humour.</p>
+                        <div class="flex items-center">
+                            <input type="text" placeholder="Search your services"
+                                class="input input-bordered mr-6 w-full lg:h-16" />
+                            <button
+                                class="btn bg-[#B68C5A] text-white border-0 normal-case font-poppins text-xl font-semibold px-10 py-4 lg:h-16">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </header>
+    <main>
+
+    </main>
 </body>
 
 </html>
